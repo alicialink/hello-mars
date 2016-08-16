@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="djj-wf-bXH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Tfo-98-F34">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="djj-wf-bXH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TZV-w4-m4b">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ntu-8q-C7Q" kind="relationship" relationship="rootViewController" id="gb5-6e-Fc7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAY-bP-oUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="68"/>
+        </scene>
+        <!--Name View Controller - Launch-->
+        <scene sceneID="Wng-Cg-Jtv">
+            <objects>
+                <viewController id="Ntu-8q-C7Q" customClass="NameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q7I-fC-UCR"/>
+                        <viewControllerLayoutGuide type="bottom" id="WeE-Rk-jQs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wj0-EK-Gzt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUd-9j-yOT" customClass="PrettyGradientView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VJO-Ag-SSG">
+                                        <rect key="frame" x="20" y="97" width="280" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNE-zq-HFs">
+                                        <rect key="frame" x="20" y="135" width="280" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vRM-Ia-inS" kind="push" id="221-DN-EZ5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="UNE-zq-HFs" firstAttribute="leading" secondItem="iUd-9j-yOT" secondAttribute="leading" constant="20" id="3YM-Re-Wuj"/>
+                                    <constraint firstItem="UNE-zq-HFs" firstAttribute="top" secondItem="VJO-Ag-SSG" secondAttribute="bottom" constant="8" id="9MD-GE-T4K"/>
+                                    <constraint firstAttribute="trailing" secondItem="VJO-Ag-SSG" secondAttribute="trailing" constant="20" id="GXe-AX-juF"/>
+                                    <constraint firstAttribute="trailing" secondItem="UNE-zq-HFs" secondAttribute="trailing" constant="20" id="HbT-sV-lse"/>
+                                    <constraint firstItem="VJO-Ag-SSG" firstAttribute="top" secondItem="iUd-9j-yOT" secondAttribute="top" constant="97" id="dg7-7i-3DH"/>
+                                    <constraint firstItem="VJO-Ag-SSG" firstAttribute="leading" secondItem="iUd-9j-yOT" secondAttribute="leading" constant="20" id="g0o-xK-1HS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iUd-9j-yOT" firstAttribute="top" secondItem="wj0-EK-Gzt" secondAttribute="top" id="ESw-MI-Cb5"/>
+                            <constraint firstItem="iUd-9j-yOT" firstAttribute="leading" secondItem="wj0-EK-Gzt" secondAttribute="leading" id="IO7-7k-8fe"/>
+                            <constraint firstAttribute="trailing" secondItem="iUd-9j-yOT" secondAttribute="trailing" id="Lqi-l4-lDw"/>
+                            <constraint firstItem="WeE-Rk-jQs" firstAttribute="top" secondItem="iUd-9j-yOT" secondAttribute="bottom" id="gZN-Mb-uxC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Launch" id="9WG-Pz-l1H"/>
+                    <connections>
+                        <outlet property="doneButton" destination="UNE-zq-HFs" id="WDr-x8-0kx"/>
+                        <outlet property="nameTextField" destination="VJO-Ag-SSG" id="ie8-j5-8fg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glI-c9-Uh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743" y="68"/>
+        </scene>
+        <!--Mars View Controller - Mars Sunset-->
+        <scene sceneID="meS-6L-H91">
+            <objects>
+                <viewController id="vRM-Ia-inS" customClass="MarsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q2W-5g-DUw"/>
+                        <viewControllerLayoutGuide type="bottom" id="c3m-aQ-ffb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HCe-IH-R1M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarsSunset.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PEQ-L8-FFL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vot-QT-Cd9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PEQ-L8-FFL" firstAttribute="top" secondItem="HCe-IH-R1M" secondAttribute="top" id="3qe-cT-Ebq"/>
+                            <constraint firstItem="c3m-aQ-ffb" firstAttribute="top" secondItem="PEQ-L8-FFL" secondAttribute="bottom" id="CyP-RV-tRe"/>
+                            <constraint firstItem="c3m-aQ-ffb" firstAttribute="top" secondItem="Vot-QT-Cd9" secondAttribute="bottom" id="NVj-hS-cu9"/>
+                            <constraint firstAttribute="trailing" secondItem="Vot-QT-Cd9" secondAttribute="trailing" id="RQb-r6-g8v"/>
+                            <constraint firstItem="PEQ-L8-FFL" firstAttribute="leading" secondItem="HCe-IH-R1M" secondAttribute="leading" id="bab-ej-VFS"/>
+                            <constraint firstAttribute="trailing" secondItem="PEQ-L8-FFL" secondAttribute="trailing" id="bst-Ez-yMH"/>
+                            <constraint firstItem="Vot-QT-Cd9" firstAttribute="leading" secondItem="HCe-IH-R1M" secondAttribute="leading" id="kAU-lC-84V"/>
+                            <constraint firstItem="Vot-QT-Cd9" firstAttribute="top" secondItem="HCe-IH-R1M" secondAttribute="top" id="xk8-gf-clu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mars Sunset" id="Cge-7H-OpD"/>
+                    <connections>
+                        <outlet property="nameLabelView" destination="Vot-QT-Cd9" id="aiA-E5-WL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzC-WS-mxp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MarsSunset.jpg" width="640" height="1136"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

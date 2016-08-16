@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06B0D9918BFCC4200359B59 /* PrettyGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B0D9818BFCC4200359B59 /* PrettyGradientView.m */; };
+		C07E226C18BEE502003F9FF3 /* MarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07E226B18BEE502003F9FF3 /* MarsViewController.m */; };
+		C09069F918C04D3F0016F3A4 /* MarsSunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09069F818C04D3F0016F3A4 /* MarsSunset.jpg */; };
+		C0DC706518BE8D67005ABC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC706418BE8D67005ABC6D /* Foundation.framework */; };
+		C0DC706718BE8D67005ABC6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC706618BE8D67005ABC6D /* CoreGraphics.framework */; };
+		C0DC706918BE8D67005ABC6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC706818BE8D67005ABC6D /* UIKit.framework */; };
+		C0DC706F18BE8D67005ABC6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0DC706D18BE8D67005ABC6D /* InfoPlist.strings */; };
+		C0DC707118BE8D67005ABC6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC707018BE8D67005ABC6D /* main.m */; };
+		C0DC707518BE8D67005ABC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC707418BE8D67005ABC6D /* AppDelegate.m */; };
+		C0DC707818BE8D67005ABC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DC707618BE8D67005ABC6D /* Main.storyboard */; };
+		C0DC707D18BE8D67005ABC6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DC707C18BE8D67005ABC6D /* Images.xcassets */; };
+		C0DC708418BE8D67005ABC6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC708318BE8D67005ABC6D /* XCTest.framework */; };
+		C0DC708518BE8D67005ABC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC706418BE8D67005ABC6D /* Foundation.framework */; };
+		C0DC708618BE8D67005ABC6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DC706818BE8D67005ABC6D /* UIKit.framework */; };
+		C0DC708E18BE8D67005ABC6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0DC708C18BE8D67005ABC6D /* InfoPlist.strings */; };
+		C0DC709018BE8D67005ABC6D /* Hello_MarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC708F18BE8D67005ABC6D /* Hello_MarsTests.m */; };
+		C0DC70D618BEAF76005ABC6D /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC70D518BEAF76005ABC6D /* NameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0DC708718BE8D67005ABC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DC705918BE8D67005ABC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DC706018BE8D67005ABC6D;
+			remoteInfo = "Hello Mars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C06B0D9718BFCC4200359B59 /* PrettyGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyGradientView.h; sourceTree = "<group>"; };
+		C06B0D9818BFCC4200359B59 /* PrettyGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyGradientView.m; sourceTree = "<group>"; };
+		C07E226A18BEE502003F9FF3 /* MarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsViewController.h; sourceTree = "<group>"; };
+		C07E226B18BEE502003F9FF3 /* MarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsViewController.m; sourceTree = "<group>"; };
+		C09069F818C04D3F0016F3A4 /* MarsSunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarsSunset.jpg; sourceTree = "<group>"; };
+		C0DC706118BE8D67005ABC6D /* Hello Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DC706418BE8D67005ABC6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0DC706618BE8D67005ABC6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0DC706818BE8D67005ABC6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0DC706C18BE8D67005ABC6D /* Hello Mars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello Mars-Info.plist"; sourceTree = "<group>"; };
+		C0DC706E18BE8D67005ABC6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0DC707018BE8D67005ABC6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0DC707218BE8D67005ABC6D /* Hello Mars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello Mars-Prefix.pch"; sourceTree = "<group>"; };
+		C0DC707318BE8D67005ABC6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0DC707418BE8D67005ABC6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0DC707718BE8D67005ABC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0DC707C18BE8D67005ABC6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0DC708218BE8D67005ABC6D /* Hello MarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello MarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DC708318BE8D67005ABC6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0DC708B18BE8D67005ABC6D /* Hello MarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello MarsTests-Info.plist"; sourceTree = "<group>"; };
+		C0DC708D18BE8D67005ABC6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0DC708F18BE8D67005ABC6D /* Hello_MarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_MarsTests.m; sourceTree = "<group>"; };
+		C0DC70D418BEAF76005ABC6D /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		C0DC70D518BEAF76005ABC6D /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0DC705E18BE8D67005ABC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC706718BE8D67005ABC6D /* CoreGraphics.framework in Frameworks */,
+				C0DC706918BE8D67005ABC6D /* UIKit.framework in Frameworks */,
+				C0DC706518BE8D67005ABC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DC707F18BE8D67005ABC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC708418BE8D67005ABC6D /* XCTest.framework in Frameworks */,
+				C0DC708618BE8D67005ABC6D /* UIKit.framework in Frameworks */,
+				C0DC708518BE8D67005ABC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0DC705818BE8D67005ABC6D = {
+			isa = PBXGroup;
+			children = (
+				C0DC706A18BE8D67005ABC6D /* Hello Mars */,
+				C0DC708918BE8D67005ABC6D /* Hello MarsTests */,
+				C0DC706318BE8D67005ABC6D /* Frameworks */,
+				C0DC706218BE8D67005ABC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DC706218BE8D67005ABC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC706118BE8D67005ABC6D /* Hello Mars.app */,
+				C0DC708218BE8D67005ABC6D /* Hello MarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DC706318BE8D67005ABC6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC706418BE8D67005ABC6D /* Foundation.framework */,
+				C0DC706618BE8D67005ABC6D /* CoreGraphics.framework */,
+				C0DC706818BE8D67005ABC6D /* UIKit.framework */,
+				C0DC708318BE8D67005ABC6D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DC706A18BE8D67005ABC6D /* Hello Mars */ = {
+			isa = PBXGroup;
+			children = (
+				C09069F818C04D3F0016F3A4 /* MarsSunset.jpg */,
+				C0DC707318BE8D67005ABC6D /* AppDelegate.h */,
+				C0DC707418BE8D67005ABC6D /* AppDelegate.m */,
+				C0DC707618BE8D67005ABC6D /* Main.storyboard */,
+				C0DC707C18BE8D67005ABC6D /* Images.xcassets */,
+				C0DC706B18BE8D67005ABC6D /* Supporting Files */,
+				C0DC70D418BEAF76005ABC6D /* NameViewController.h */,
+				C0DC70D518BEAF76005ABC6D /* NameViewController.m */,
+				C07E226A18BEE502003F9FF3 /* MarsViewController.h */,
+				C07E226B18BEE502003F9FF3 /* MarsViewController.m */,
+				C06B0D9718BFCC4200359B59 /* PrettyGradientView.h */,
+				C06B0D9818BFCC4200359B59 /* PrettyGradientView.m */,
+			);
+			path = "Hello Mars";
+			sourceTree = "<group>";
+		};
+		C0DC706B18BE8D67005ABC6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC706C18BE8D67005ABC6D /* Hello Mars-Info.plist */,
+				C0DC706D18BE8D67005ABC6D /* InfoPlist.strings */,
+				C0DC707018BE8D67005ABC6D /* main.m */,
+				C0DC707218BE8D67005ABC6D /* Hello Mars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0DC708918BE8D67005ABC6D /* Hello MarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC708F18BE8D67005ABC6D /* Hello_MarsTests.m */,
+				C0DC708A18BE8D67005ABC6D /* Supporting Files */,
+			);
+			path = "Hello MarsTests";
+			sourceTree = "<group>";
+		};
+		C0DC708A18BE8D67005ABC6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DC708B18BE8D67005ABC6D /* Hello MarsTests-Info.plist */,
+				C0DC708C18BE8D67005ABC6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0DC706018BE8D67005ABC6D /* Hello Mars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DC709318BE8D67005ABC6D /* Build configuration list for PBXNativeTarget "Hello Mars" */;
+			buildPhases = (
+				C0DC705D18BE8D67005ABC6D /* Sources */,
+				C0DC705E18BE8D67005ABC6D /* Frameworks */,
+				C0DC705F18BE8D67005ABC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Mars";
+			productName = "Hello Mars";
+			productReference = C0DC706118BE8D67005ABC6D /* Hello Mars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0DC708118BE8D67005ABC6D /* Hello MarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DC709618BE8D67005ABC6D /* Build configuration list for PBXNativeTarget "Hello MarsTests" */;
+			buildPhases = (
+				C0DC707E18BE8D67005ABC6D /* Sources */,
+				C0DC707F18BE8D67005ABC6D /* Frameworks */,
+				C0DC708018BE8D67005ABC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DC708818BE8D67005ABC6D /* PBXTargetDependency */,
+			);
+			name = "Hello MarsTests";
+			productName = "Hello MarsTests";
+			productReference = C0DC708218BE8D67005ABC6D /* Hello MarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0DC705918BE8D67005ABC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alicia Key";
+				TargetAttributes = {
+					C0DC708118BE8D67005ABC6D = {
+						TestTargetID = C0DC706018BE8D67005ABC6D;
+					};
+				};
+			};
+			buildConfigurationList = C0DC705C18BE8D67005ABC6D /* Build configuration list for PBXProject "Hello Mars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0DC705818BE8D67005ABC6D;
+			productRefGroup = C0DC706218BE8D67005ABC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0DC706018BE8D67005ABC6D /* Hello Mars */,
+				C0DC708118BE8D67005ABC6D /* Hello MarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0DC705F18BE8D67005ABC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC707D18BE8D67005ABC6D /* Images.xcassets in Resources */,
+				C0DC706F18BE8D67005ABC6D /* InfoPlist.strings in Resources */,
+				C09069F918C04D3F0016F3A4 /* MarsSunset.jpg in Resources */,
+				C0DC707818BE8D67005ABC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DC708018BE8D67005ABC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC708E18BE8D67005ABC6D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DC705D18BE8D67005ABC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC707518BE8D67005ABC6D /* AppDelegate.m in Sources */,
+				C06B0D9918BFCC4200359B59 /* PrettyGradientView.m in Sources */,
+				C07E226C18BEE502003F9FF3 /* MarsViewController.m in Sources */,
+				C0DC707118BE8D67005ABC6D /* main.m in Sources */,
+				C0DC70D618BEAF76005ABC6D /* NameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DC707E18BE8D67005ABC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DC709018BE8D67005ABC6D /* Hello_MarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0DC708818BE8D67005ABC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0DC706018BE8D67005ABC6D /* Hello Mars */;
+			targetProxy = C0DC708718BE8D67005ABC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0DC706D18BE8D67005ABC6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DC706E18BE8D67005ABC6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0DC707618BE8D67005ABC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DC707718BE8D67005ABC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0DC708C18BE8D67005ABC6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DC708D18BE8D67005ABC6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0DC709118BE8D67005ABC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0DC709218BE8D67005ABC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0DC709418BE8D67005ABC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello Mars/Hello Mars-Prefix.pch";
+				INFOPLIST_FILE = "Hello Mars/Hello Mars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0DC709518BE8D67005ABC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello Mars/Hello Mars-Prefix.pch";
+				INFOPLIST_FILE = "Hello Mars/Hello Mars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0DC709718BE8D67005ABC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hello Mars.app/Hello Mars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello Mars/Hello Mars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hello MarsTests/Hello MarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0DC709818BE8D67005ABC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hello Mars.app/Hello Mars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello Mars/Hello Mars-Prefix.pch";
+				INFOPLIST_FILE = "Hello MarsTests/Hello MarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0DC705C18BE8D67005ABC6D /* Build configuration list for PBXProject "Hello Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DC709118BE8D67005ABC6D /* Debug */,
+				C0DC709218BE8D67005ABC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DC709318BE8D67005ABC6D /* Build configuration list for PBXNativeTarget "Hello Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DC709418BE8D67005ABC6D /* Debug */,
+				C0DC709518BE8D67005ABC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DC709618BE8D67005ABC6D /* Build configuration list for PBXNativeTarget "Hello MarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DC709718BE8D67005ABC6D /* Debug */,
+				C0DC709818BE8D67005ABC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0DC705918BE8D67005ABC6D /* Project object */;
+}
